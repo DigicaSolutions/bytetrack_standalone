@@ -1,7 +1,7 @@
 import numpy as np
-from src.kalman_filter import KalmanFilter
-from src import matching
-from src.base_track import BaseTrack, TrackState
+from .kalman_filter import KalmanFilter
+from . import matching
+from .base_track import BaseTrack, TrackState
 
 class STrack(BaseTrack):
     shared_kalman = KalmanFilter()
